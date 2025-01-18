@@ -1,14 +1,13 @@
 
-import './App.css'
-
+import Startgame from "./components/Startgame";
 function App() {
-
-
   return (
     <>
-      hello this is my ludo app
-    </>
-  )
+
+    <Startgame/>
+   </>
+  );
 }
 
-export default App
+export default App;
+
